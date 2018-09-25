@@ -1,3 +1,4 @@
 (defpackage #:crear
   (:use #:common-lisp
-	#:alexandria))
+	#:alexandria
+	#:split-sequence))

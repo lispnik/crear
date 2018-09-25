@@ -13,7 +13,8 @@
     :serial t
     :components ((:file "package")
 		 (:file "@name@"))))
-  :in-order-to ((test-op (test-op #:@name@-test))))
+  :in-order-to ((test-op (test-op #:@name@-test)))
+  :depends-on (#:alexandria))
 
 (defsystem #:@name@-test
   :components
